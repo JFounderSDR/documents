@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_application__impl.html" title="The Application class provides the interface for the control, configuration, and status of an instant..." alt="" coords="549,56,667,83"/>
+<area shape="rect" id="node4" href="$class_device__servant.html" title="A device is a type of resource and has all the requirements associated with the Resource interface..." alt="" coords="551,157,665,184"/>
+<area shape="rect" id="node5" href="$class_loadable_device__servant.html" title="This interface extends the Device interface by adding software loading and unloading behavior to a de..." alt="" coords="715,132,880,159"/>
+<area shape="rect" id="node6" href="$class_executable_device__servant.html" title="This interface extends the LoadableDevice interface by adding execute and terminate behavior to a dev..." alt="" coords="928,157,1107,184"/>
+<area shape="rect" id="node8" href="$class_device_manager__impl.html" title="The DeviceManager interface is used to manage a set of logical devices and services. " alt="" coords="355,208,499,235"/>
+<area shape="rect" id="node10" href="$class_domain_manager__impl.html" title="The DomainManager interface is for the control and configuration of the system domain. " alt="" coords="353,284,501,311"/>
+<area shape="rect" id="node13" href="$class_life_cycle__impl.html" title="The LifeCycle interface defines the generic operations for initializing or releasing instantiated com..." alt="" coords="181,5,289,32"/>
+<area shape="rect" id="node14" href="$class_resource__impl.html" title="The Resource interface provides a common API for the control and configuration of a software componen..." alt="" coords="373,107,482,133"/>
+<area shape="rect" id="node17" href="$class_port_supplier__impl.html" title="This interface provides the getPort operation for those components that provide ports. " alt="" coords="173,157,297,184"/>
+<area shape="rect" id="node19" href="$class_property_set__impl.html" title="The PropertySet class defines configure and query operations to access component properties/attribute..." alt="" coords="173,259,296,285"/>
+<area shape="rect" id="node22" href="$class_testable_object__impl.html" title="The testable object interface provides a means to perform stand alone testing of an SCA component..." alt="" coords="164,107,305,133"/>
+</map>

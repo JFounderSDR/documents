@@ -1,0 +1,23 @@
+<map id="frameworks/DeviceMgr/include/DeviceManager_impl.h" name="frameworks/DeviceMgr/include/DeviceManager_impl.h">
+<area shape="rect" id="node2" href="$_resource__impl_8h.html" title=": &#160;" alt="" coords="2808,355,2928,382"/>
+<area shape="rect" id="node4" href="$opensca_support_8h.html" title=": &#160;" alt="" coords="1887,184,2014,211"/>
+<area shape="rect" id="node13" href="$_boost__utils_8h.html" title=": &#160;" alt="" coords="1753,266,1852,293"/>
+<area shape="rect" id="node14" href="$debug_8h.html" title=": &#160;" alt="" coords="896,355,964,382"/>
+<area shape="rect" id="node26" href="$_d_c_d_parser_8h.html" title=": &#160;" alt="" coords="97,184,198,211"/>
+<area shape="rect" id="node32" href="$_s_p_d_parser_8h.html" title=": &#160;" alt="" coords="714,109,813,136"/>
+<area shape="rect" id="node35" href="$_file_system__impl_8h.html" title=": &#160;" alt="" coords="1988,109,2118,136"/>
+<area shape="rect" id="node37" href="$utils_8h.html" title=": &#160;" alt="" coords="3208,184,3266,211"/>
+<area shape="rect" id="node43" href="$_executable_device__servant_8h.html" title=": &#160;" alt="" coords="2142,109,2332,136"/>
+<area shape="rect" id="node46" href="$_uses_connection_info_8h.html" title=": &#160;" alt="" coords="3196,109,3348,136"/>
+<area shape="rect" id="node47" href="$_cyclic_buffer_controller_8h.html" title="CyclicBufferController.h" alt="" coords="3372,109,3534,136"/>
+<area shape="rect" id="node10" href="$_config_parser_8h.html" title=": &#160;" alt="" coords="1518,266,1628,293"/>
+<area shape="rect" id="node27" href="$parser__helpers_8h.html" title=": &#160;" alt="" coords="324,266,443,293"/>
+<area shape="rect" id="node31" href="$port__helpers_8h.html" title=": &#160;" alt="" coords="220,355,324,382"/>
+<area shape="rect" id="node33" href="$_p_r_f_parser_8h.html" title=": &#160;" alt="" coords="714,184,813,211"/>
+<area shape="rect" id="node34" href="$prop__helpers_8h.html" title=": &#160;" alt="" coords="468,266,574,293"/>
+<area shape="rect" id="node36" href="$_file__impl_8h.html" title=": &#160;" alt="" coords="2934,184,3020,211"/>
+<area shape="rect" id="node41" href="$macros_8h.html" title=": &#160;" alt="" coords="3463,266,3539,293"/>
+<area shape="rect" id="node42" href="$_time_delay_8h.html" title=": &#160;" alt="" coords="3564,266,3660,293"/>
+<area shape="rect" id="node44" href="$_loadable_device__servant_8h.html" title=": &#160;" alt="" coords="2676,184,2852,211"/>
+<area shape="rect" id="node45" href="$_device__servant_8h.html" title=": &#160;" alt="" coords="2702,266,2826,293"/>
+</map>

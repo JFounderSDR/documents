@@ -1,0 +1,11 @@
+<map id="frameworks/libCF_StdPorts/include/MHAL_WF_p.h" name="frameworks/libCF_StdPorts/include/MHAL_WF_p.h">
+<area shape="rect" id="node6" href="$_m_h_a_l_interface_s_8h.html" title="MHALInterfaceS.h" alt="" coords="3665,95,3795,121"/>
+<area shape="rect" id="node48" href="$_cyclic_buffer_controller_8h.html" title="CyclicBufferController.h" alt="" coords="3819,95,3980,121"/>
+<area shape="rect" id="node7" href="$_m_h_a_l_interface_c_8h.html" title="MHALInterfaceC.h" alt="" coords="799,169,930,196"/>
+<area shape="rect" id="node34" href="$_j_t_r_s_corba_types_s_8h.html" title="JTRSCorbaTypesS.h" alt="" coords="3157,251,3303,278"/>
+<area shape="rect" id="node43" href="$_packet_s_8h.html" title="PacketS.h" alt="" coords="3689,169,3771,196"/>
+<area shape="rect" id="node27" href="$_j_t_r_s_corba_types_c_8h.html" title="../include/JTRSCorbaTypesC.h" alt="" coords="1643,341,1849,367"/>
+<area shape="rect" id="node33" href="$_packet_c_8h.html" title="../include/PacketC.h" alt="" coords="1255,251,1397,278"/>
+<area shape="rect" id="node31" href="$_port_types_c_8h.html" title="PortTypesC.h" alt="" coords="1608,430,1711,457"/>
+<area shape="rect" id="node36" href="$_port_types_s_8h.html" title="PortTypesS.h" alt="" coords="3135,341,3237,367"/>
+</map>

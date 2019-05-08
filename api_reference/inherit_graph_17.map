@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_component_assembly_parser.html" title="This class is designed to parse assembly component consisted of SAD and SCD. " alt="" coords="5,31,191,57"/>
+<area shape="rect" id="node2" href="$class_d_c_d_parser.html" title="class OPENSCA_PARSER_API DCDParser:public ComponentAssemblyParser " alt="" coords="239,5,329,32"/>
+<area shape="rect" id="node3" href="$class_s_a_d_parser.html" title="class OPENSCAPARSER_API SADParser:public ComponentAssemblyParser " alt="" coords="240,56,328,83"/>
+</map>

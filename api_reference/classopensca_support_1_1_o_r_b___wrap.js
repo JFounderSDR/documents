@@ -1,0 +1,26 @@
+var classopensca_support_1_1_o_r_b___wrap =
+[
+    [ "ORB_Wrap", "classopensca_support_1_1_o_r_b___wrap.html#a801da41eed2f330a3304d0cb5386bc60", null ],
+    [ "ORB_Wrap", "classopensca_support_1_1_o_r_b___wrap.html#a7a30ae396134abd8c16e95f6420f7c31", null ],
+    [ "~ORB_Wrap", "classopensca_support_1_1_o_r_b___wrap.html#a9538c283f0412de969ecd750f42ca81f", null ],
+    [ "bind_new_context_with_string", "classopensca_support_1_1_o_r_b___wrap.html#ac8c35240ec1cb716ce7c94ddf4ab51e6", null ],
+    [ "bind_object_to_string", "classopensca_support_1_1_o_r_b___wrap.html#ac715b6ebcd53dd4a7c8702e8b8b10080", null ],
+    [ "bind_object_to_string", "classopensca_support_1_1_o_r_b___wrap.html#a08f7a059fac7ef3bc31d3c7e4556aafa", null ],
+    [ "checkConfigInfo", "classopensca_support_1_1_o_r_b___wrap.html#a723879970538c2a1fea61f77ab979c07", null ],
+    [ "destory_context", "classopensca_support_1_1_o_r_b___wrap.html#a96d2ad17d8659d719a6631ce0cfc8b85", null ],
+    [ "get_object_from_string", "classopensca_support_1_1_o_r_b___wrap.html#a00d49c1a8b22d59e47fbb247cfa12ed0", null ],
+    [ "get_object_from_string", "classopensca_support_1_1_o_r_b___wrap.html#ab17d7e04d688926cff30a530671ad16b", null ],
+    [ "getNamingServiceIor", "classopensca_support_1_1_o_r_b___wrap.html#a4dd7f816b80551023dd55e31041565a1", null ],
+    [ "init", "classopensca_support_1_1_o_r_b___wrap.html#a02fd73d861ef2e4aabb38c0c9ff82947", null ],
+    [ "ior_to_object", "classopensca_support_1_1_o_r_b___wrap.html#a1edaa20e54bdd9f750fab2ad485995c1", null ],
+    [ "object_to_ior", "classopensca_support_1_1_o_r_b___wrap.html#aec11bc22a847d7f1f9e6083c7d73b646", null ],
+    [ "string_to_CosName", "classopensca_support_1_1_o_r_b___wrap.html#ab249cad40eec6cee318b52bb9743266a", null ],
+    [ "unbind_string", "classopensca_support_1_1_o_r_b___wrap.html#aca815f37d97bd257faadd1fbc9dbf933", null ],
+    [ "unbind_string", "classopensca_support_1_1_o_r_b___wrap.html#a9e676ad7bbf756db326f3e7ad5beb1d2", null ],
+    [ "m_namingServiceIor", "classopensca_support_1_1_o_r_b___wrap.html#a3eede9c030f6d9294117c7a4482bcb4d", null ],
+    [ "naming_cntx", "classopensca_support_1_1_o_r_b___wrap.html#a2af925cb306eedf522c0a8e1f530c35c", null ],
+    [ "orb", "classopensca_support_1_1_o_r_b___wrap.html#a3d594d2eaf36cfe48ce232927e621b0b", null ],
+    [ "pman", "classopensca_support_1_1_o_r_b___wrap.html#a355c0c890f0e17eb8e03386a8e4de708", null ],
+    [ "poa", "classopensca_support_1_1_o_r_b___wrap.html#a9c579edb41dee5fbff428a0ae7341f97", null ],
+    [ "ref_cnt", "classopensca_support_1_1_o_r_b___wrap.html#a5f7125c9559029707084dba3ed62e892", null ]
+];

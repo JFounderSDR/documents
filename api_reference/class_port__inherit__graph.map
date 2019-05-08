@@ -1,0 +1,4 @@
+<map id="Port" name="Port">
+<area shape="rect" id="node2" href="$class_provides_port.html" title="ProvidesPort" alt="" coords="5,80,103,107"/>
+<area shape="rect" id="node3" href="$class_uses_port.html" title="UsesPort" alt="" coords="127,80,205,107"/>
+</map>

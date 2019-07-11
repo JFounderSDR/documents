@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Fixed_Size_SArg_Traits_T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SArg_Traits\< ::Packet\l::StreamControlType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_a_o_1_1_s_arg___traits_3_01_1_1_packet_1_1_stream_control_type_01_4.html"];
+}

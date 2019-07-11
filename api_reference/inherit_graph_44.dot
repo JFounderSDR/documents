@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DeviceNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_device_node.html",tooltip="The class used to describle a device, containing device&#39;s object reference, label, software profile and properties, and device manager which the device belongs to. "];
+}

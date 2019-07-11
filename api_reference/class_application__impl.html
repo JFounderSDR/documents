@@ -129,11 +129,6 @@ Inheritance diagram for Application_impl:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_application__impl__inherit__graph.png" border="0" usemap="#_application__impl_inherit__map" alt="Inheritance graph"/></div>
 <map name="_application__impl_inherit__map" id="_application__impl_inherit__map">
-<area shape="rect" id="node3" href="class_resource__impl.html" title="The Resource interface provides a common API for the control and configuration of a software componen..." alt="" coords="300,155,409,181"/>
-<area shape="rect" id="node4" href="class_property_set__impl.html" title="The PropertySet class defines configure and query operations to access component properties/attribute..." alt="" coords="5,80,128,107"/>
-<area shape="rect" id="node6" href="class_port_supplier__impl.html" title="This interface provides the getPort operation for those components that provide ports. " alt="" coords="153,80,277,107"/>
-<area shape="rect" id="node8" href="class_life_cycle__impl.html" title="The LifeCycle interface defines the generic operations for initializing or releasing instantiated com..." alt="" coords="301,80,409,107"/>
-<area shape="rect" id="node10" href="class_testable_object__impl.html" title="The testable object interface provides a means to perform stand alone testing of an SCA component..." alt="" coords="433,80,575,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -338,7 +333,7 @@ Additional Inherited Members</h2></td></tr>
 <p>The Application interface inherits the IDL interface of <a class="el" href="namespace_resource.html">Resource</a>. A created application instance may contain <a class="el" href="namespace_resource.html">Resource</a> components and/or non-CORBA components. The Application interface UML is depicted in Figure 3-10. The Application interface releaseObject operation provides the interface to release the computing resources allocated during the instantiation of the application, and de-allocate the devices associated with Application instance.</p>
 <p>An instance of an Application is returned by the create operation of an instance of the ApplicationFactory class. </p>
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00047">47</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00049">49</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa4bfc56f418615cea97eeca255525c60"></a>
 <div class="memitem">
@@ -1339,7 +1334,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>all application object can increment it when create new app instance </p>
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00068">68</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00070">70</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1364,7 +1359,7 @@ Additional Inherited Members</h2></td></tr>
 <p>The componentDevices attribute shall contain a list of devices, which each component either uses, is loaded on or is executed on. </p>
 <p>Each component (identified by the componentinstantiation element in the application's software profile) is associated with at least one device. </p>
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00405">405</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00407">407</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1388,7 +1383,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The componentImplementations attribute shall contain the list of components' SPD implementation IDs within the application for those components created. </p>
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00410">410</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00412">412</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1412,7 +1407,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The componentNamingContexts attribute shall contain the list of components' Naming Service Context within the application for those components using CORBA Naming Service. </p>
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00416">416</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00418">418</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1436,7 +1431,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The componentProcessIds attribute shall contain the list of components' process IDs within the Application for components that are executing on a device. </p>
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00421">421</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00423">423</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1458,7 +1453,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00433">433</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00435">435</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1480,7 +1475,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00423">423</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00425">425</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1502,7 +1497,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00424">424</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00426">426</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1524,7 +1519,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00425">425</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00427">427</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1546,7 +1541,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00427">427</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00429">429</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1568,7 +1563,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00428">428</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00430">430</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1590,7 +1585,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00432">432</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00434">434</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1612,7 +1607,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00426">426</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00428">428</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1634,7 +1629,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00430">430</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00432">432</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1656,7 +1651,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00431">431</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
+<p>Definition at line <a class="el" href="_application__impl_8h_source.html#l00433">433</a> of file <a class="el" href="_application__impl_8h_source.html">Application_impl.h</a>.</p>
 
 </div>
 </div>
@@ -1671,7 +1666,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_application__impl.html">Application_impl</a></li>
-    <li class="footer">Generated on Wed May 8 2019 11:27:44 for
+    <li class="footer">Generated on Thu Jul 11 2019 09:43:53 for
     <a href="http://www.onetek.net">
     <img class="footer" src="openscaLogo.png" height="31" alt="openSCA"/></a>
     </li>

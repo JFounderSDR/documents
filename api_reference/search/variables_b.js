@@ -44,6 +44,7 @@ var searchData=
   ['m_5fcompositepartofdeviceid',['m_compositePartOfDeviceID',['../class_d_c_d_component_placement.html#a3781186d124321505bcbe7f470af88ba',1,'DCDComponentPlacement']]],
   ['m_5fconfigproperties',['m_configProperties',['../class_p_r_f_parser.html#a4f4dd6131ec64f641e3c6e38babc2dc2',1,'PRFParser']]],
   ['m_5fconfigureproperties',['m_configureProperties',['../classopensca_support_1_1_component_info.html#a88eec2326362cbe485614bed75720988',1,'openscaSupport::ComponentInfo']]],
+  ['m_5fconnection',['m_connection',['../class_standard_interfaces__i_1_1_m_h_a_l___p_f__p.html#ad599560c12cf14b07a8a9786ed2931fd',1,'StandardInterfaces_i::MHAL_PF_p::m_connection()'],['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#ad599560c12cf14b07a8a9786ed2931fd',1,'StandardInterfaces_i::MHAL_WF_p::m_connection()']]],
   ['m_5fconnectionid',['m_connectionId',['../class_connection.html#ad9e00166e9f5370638ab91f1b6a35fae',1,'Connection']]],
   ['m_5fconnectionsinfo',['m_connectionsInfo',['../class_application_factory__impl.html#a9aee869091207d04ac150eb4cf0d00a4',1,'ApplicationFactory_impl::m_connectionsInfo()'],['../class_device_manager__impl.html#a9aee869091207d04ac150eb4cf0d00a4',1,'DeviceManager_impl::m_connectionsInfo()']]],
   ['m_5fconnectsdata',['m_connectsData',['../class_application__impl.html#a9e67f99fc15bc78e7e44847499191bed',1,'Application_impl']]],

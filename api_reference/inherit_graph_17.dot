@@ -1,0 +1,12 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ComponentAssemblyParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_component_assembly_parser.html",tooltip="This class is designed to parse assembly component consisted of SAD and SCD. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DCDParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_d_c_d_parser.html",tooltip="class OPENSCA_PARSER_API DCDParser:public ComponentAssemblyParser "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SADParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_a_d_parser.html",tooltip="class OPENSCAPARSER_API SADParser:public ComponentAssemblyParser "];
+}

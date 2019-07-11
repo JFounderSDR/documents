@@ -1,0 +1,11 @@
+digraph "frameworks/FileManager/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a92f637608b09557df2e8981ffcc95de {
+    graph [ bgcolor="#ddddee", pencolor="black", label="FileManager" fontname="Helvetica", fontsize="10", URL="dir_a92f637608b09557df2e8981ffcc95de.html"]
+  dir_ee9a637fa39370bb67cbee58cccec7b9 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ee9a637fa39370bb67cbee58cccec7b9.html"];
+  }
+  dir_87a3c5cad2ab63333bfd27a76390de41 [shape=box label="include" URL="dir_87a3c5cad2ab63333bfd27a76390de41.html"];
+  dir_ee9a637fa39370bb67cbee58cccec7b9->dir_87a3c5cad2ab63333bfd27a76390de41 [headlabel="1", labeldistance=1.5 headhref="dir_000021_000020.html"];
+}

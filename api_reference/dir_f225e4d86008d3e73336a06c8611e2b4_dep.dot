@@ -1,0 +1,12 @@
+digraph "runtime_env" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f225e4d86008d3e73336a06c8611e2b4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f225e4d86008d3e73336a06c8611e2b4.html"];
+    dir_f225e4d86008d3e73336a06c8611e2b4 [shape=plaintext label="runtime_env"];
+    dir_e18fda149894c12fa269693310106ac1 [shape=box label="orb_al" color="red" fillcolor="white" style="filled" URL="dir_e18fda149894c12fa269693310106ac1.html"];
+    dir_8f9a475dbd6b925c5ec1184392d41305 [shape=box label="rte_utils" color="red" fillcolor="white" style="filled" URL="dir_8f9a475dbd6b925c5ec1184392d41305.html"];
+  }
+  dir_e18fda149894c12fa269693310106ac1->dir_8f9a475dbd6b925c5ec1184392d41305 [headlabel="3", labeldistance=1.5 headhref="dir_000035_000037.html"];
+}

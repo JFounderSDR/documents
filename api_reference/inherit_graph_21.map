@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_component_placement.html" title="class openscaPARSER_API ComponentPlacement " alt="" coords="5,31,156,57"/>
-<area shape="rect" id="node2" href="$class_d_c_d_component_placement.html" title="class OPENSCA_PARSER_API DCDComponentPlacement:public ComponentPlacement " alt="" coords="204,5,385,32"/>
-<area shape="rect" id="node3" href="$class_s_a_d_component_placement.html" title="class openscaPARSER_API SADComponentPlacement:public ComponentPlacement " alt="" coords="205,56,384,83"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_port.html" title="Port" alt="" coords="5,31,52,57"/>
-<area shape="rect" id="node2" href="$class_provides_port.html" title="ProvidesPort" alt="" coords="100,5,197,32"/>
-<area shape="rect" id="node3" href="$class_uses_port.html" title="UsesPort" alt="" coords="110,56,187,83"/>
-</map>

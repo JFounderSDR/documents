@@ -1,0 +1,51 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Application",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Application_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_application__impl.html",tooltip="The Application class provides the interface for the control, configuration, and status of an instant..."];
+  Node3 [label="Device",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Device_servant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_device__servant.html",tooltip="A device is a type of resource and has all the requirements associated with the Resource interface..."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="LoadableDevice_servant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_loadable_device__servant.html",tooltip="This interface extends the Device interface by adding software loading and unloading behavior to a de..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ExecutableDevice_servant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_executable_device__servant.html",tooltip="This interface extends the LoadableDevice interface by adding execute and terminate behavior to a dev..."];
+  Node7 [label="DeviceManager",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="DeviceManager_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_device_manager__impl.html",tooltip="The DeviceManager interface is used to manage a set of logical devices and services. "];
+  Node9 [label="DomainManager",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="DomainManager_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_domain_manager__impl.html",tooltip="The DomainManager interface is for the control and configuration of the system domain. "];
+  Node11 [label="ExecutableDevice",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="LifeCycle",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="LifeCycle_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_life_cycle__impl.html",tooltip="The LifeCycle interface defines the generic operations for initializing or releasing instantiated com..."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Resource_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_resource__impl.html",tooltip="The Resource interface provides a common API for the control and configuration of a software componen..."];
+  Node14 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="LoadableDevice",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node15 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="PortSupplier",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="PortSupplier_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_port_supplier__impl.html",tooltip="This interface provides the getPort operation for those components that provide ports. "];
+  Node17 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="PropertySet",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="PropertySet_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_property_set__impl.html",tooltip="The PropertySet class defines configure and query operations to access component properties/attribute..."];
+  Node19 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="Resource",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node20 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="TestableObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="TestableObject_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_testable_object__impl.html",tooltip="The testable object interface provides a means to perform stand alone testing of an SCA component..."];
+  Node22 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

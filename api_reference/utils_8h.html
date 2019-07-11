@@ -129,15 +129,13 @@ $(document).ready(function(){initNavTree('utils_8h.html','');});
 <code>#include &quot;<a class="el" href="macros_8h_source.html">macros.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_config_parser_8h_source.html">ConfigParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_time_delay_8h_source.html">TimeDelay.h</a>&quot;</code><br />
-<code>#include &quot;CFS.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="rte__debug_8h_source.html">rte_debug.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_boost__utils_8h_source.html">Boost_utils.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for utils.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="utils_8h__incl.png" border="0" usemap="#runtime__env_2rte__utils_2include_2utils_8h" alt=""/></div>
 <map name="runtime__env_2rte__utils_2include_2utils_8h" id="runtime__env_2rte__utils_2include_2utils_8h">
-<area shape="rect" id="node7" href="macros_8h.html" title=": &#160;" alt="" coords="457,95,533,121"/>
-<area shape="rect" id="node8" href="_config_parser_8h.html" title=": &#160;" alt="" coords="558,95,667,121"/>
-<area shape="rect" id="node12" href="_time_delay_8h.html" title=": &#160;" alt="" coords="691,95,787,121"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -145,30 +143,6 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="utils_8h__dep__incl.png" border="0" usemap="#runtime__env_2rte__utils_2include_2utils_8hdep" alt=""/></div>
 <map name="runtime__env_2rte__utils_2include_2utils_8hdep" id="runtime__env_2rte__utils_2include_2utils_8hdep">
-<area shape="rect" id="node2" href="_application__impl_8cpp.html" title=": &#160;" alt="" coords="5,102,173,143"/>
-<area shape="rect" id="node3" href="_application_factory__impl_8h.html" title=": &#160;" alt="" coords="645,102,867,143"/>
-<area shape="rect" id="node4" href="_application_factory__impl_8cpp.html" title=": &#160;" alt="" coords="215,206,427,247"/>
-<area shape="rect" id="node8" href="_deploy_strategy_8cpp.html" title="frameworks/ApplicationFactory\l/src/DeployStrategy.cpp" alt="" coords="419,102,621,143"/>
-<area shape="rect" id="node9" href="_launch_node_8h.html" title=": &#160;" alt="" coords="941,102,1101,143"/>
-<area shape="rect" id="node10" href="_bootloader_8cpp.html" title=": &#160;" alt="" coords="757,206,917,247"/>
-<area shape="rect" id="node12" href="_device_manager__impl_8h.html" title=": &#160;" alt="" coords="1176,199,1339,255"/>
-<area shape="rect" id="node13" href="_device_manager__impl_8cpp.html" title=": &#160;" alt="" coords="1100,303,1295,344"/>
-<area shape="rect" id="node14" href="_device_manager__server_8cpp.html" title="frameworks/DeviceMgr\l/src/DeviceManager_server.cpp" alt="" coords="1575,303,1782,344"/>
-<area shape="rect" id="node15" href="_executable_device__servant_8h.html" title=": &#160;" alt="" coords="1227,95,1405,151"/>
-<area shape="rect" id="node17" href="_loadable_device__servant_8cpp.html" title=": &#160;" alt="" coords="1429,102,1645,143"/>
-<area shape="rect" id="node18" href="_file_system__impl_8cpp.html" title=": &#160;" alt="" coords="1669,102,1840,143"/>
-<area shape="rect" id="node19" href="_real_octet__p_8h.html" title=": &#160;" alt="" coords="1915,102,2098,143"/>
-<area shape="rect" id="node21" href="_real_octet__u_8h.html" title=": &#160;" alt="" coords="2487,102,2670,143"/>
-<area shape="rect" id="node23" href="prop__helpers_8cpp.html" title=": &#160;" alt="" coords="2122,102,2281,143"/>
-<area shape="rect" id="node24" href="_s_a_d_parser_8cpp.html" title=": &#160;" alt="" coords="2305,102,2463,143"/>
-<area shape="rect" id="node25" href="_time_delay_8h.html" title=": &#160;" alt="" coords="249,102,394,143"/>
-<area shape="rect" id="node5" href="_domain_manager__impl_8h.html" title=": &#160;" alt="" coords="566,199,733,255"/>
-<area shape="rect" id="node6" href="_domain_manager__impl_8cpp.html" title=": &#160;" alt="" coords="437,303,635,344"/>
-<area shape="rect" id="node7" href="_domain_manager__server_8cpp.html" title=": &#160;" alt="" coords="659,303,869,344"/>
-<area shape="rect" id="node11" href="launch_node_8cpp.html" title="frameworks/BootLoader\l/src/launchNode.cpp" alt="" coords="941,206,1101,247"/>
-<area shape="rect" id="node16" href="_executable_device__servant_8cpp.html" title=": &#160;" alt="" coords="1363,199,1520,255"/>
-<area shape="rect" id="node20" href="_real_octet__p_8cpp.html" title=": &#160;" alt="" coords="1915,206,2098,247"/>
-<area shape="rect" id="node22" href="_real_octet__u_8cpp.html" title="frameworks/libCF_StdPorts\l/src/RealOctet_u.cpp" alt="" coords="2487,206,2670,247"/>
 </map>
 </div>
 </div>
@@ -299,20 +273,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ada897c5a967dbbc8924b186eaaaee127"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ada897c5a967dbbc8924b186eaaaee127">hexConvertToDec</a> (const char *hexStr, unsigned long &amp;result)</td></tr>
 <tr class="memdesc:ada897c5a967dbbc8924b186eaaaee127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert hex string to dec number whose type is unsigned long.  <a href="#ada897c5a967dbbc8924b186eaaaee127">More...</a><br /></td></tr>
 <tr class="separator:ada897c5a967dbbc8924b186eaaaee127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17279927478b2686e245ab156da49bf3"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a17279927478b2686e245ab156da49bf3">getExectePath</a> (char *buf, int count)</td></tr>
-<tr class="separator:a17279927478b2686e245ab156da49bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a9f47dc8c5e4dd35d67b78da7aee223"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a0a9f47dc8c5e4dd35d67b78da7aee223">replaceFileNameofPath</a> (const char *fullPath, const char *fileName)</td></tr>
 <tr class="separator:a0a9f47dc8c5e4dd35d67b78da7aee223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a680533975968f65b1fc5c1092b528e1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a680533975968f65b1fc5c1092b528e1e">openProfileFile</a> (CF::FileSystem_ptr fs, const char *profile, CF::File_var &amp;file)</td></tr>
-<tr class="memdesc:a680533975968f65b1fc5c1092b528e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The operation shall open a file, and return the file object reference.  <a href="#a680533975968f65b1fc5c1092b528e1e">More...</a><br /></td></tr>
-<tr class="separator:a680533975968f65b1fc5c1092b528e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c501111e1f62c583013739cfa521e55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a0c501111e1f62c583013739cfa521e55">openProfileFile</a> (CF::FileManager_ptr fm, const char *profile, CF::File_var &amp;file)</td></tr>
-<tr class="memdesc:a0c501111e1f62c583013739cfa521e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">The operation shall open a file, and return the file object reference.  <a href="#a0c501111e1f62c583013739cfa521e55">More...</a><br /></td></tr>
-<tr class="separator:a0c501111e1f62c583013739cfa521e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fe8bd62937b21334bf54a947c33f11c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a8fe8bd62937b21334bf54a947c33f11c">closeProfileFile</a> (CF::File_ptr file)</td></tr>
-<tr class="separator:a8fe8bd62937b21334bf54a947c33f11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a088b612e22980f08ffac5d700f62101d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a088b612e22980f08ffac5d700f62101d">get_exe_path</a> (char *buf, int count)</td></tr>
-<tr class="separator:a088b612e22980f08ffac5d700f62101d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfd91ed7f342b3be4ba2104bd371c3f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#adfd91ed7f342b3be4ba2104bd371c3f8">setConfigFilePathToSHM</a> (const char *path)</td></tr>
+<tr class="memdesc:adfd91ed7f342b3be4ba2104bd371c3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">configure opensca.conf path.  <a href="#adfd91ed7f342b3be4ba2104bd371c3f8">More...</a><br /></td></tr>
+<tr class="separator:adfd91ed7f342b3be4ba2104bd371c3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e47746a18092a8d5836779673d17cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a71e47746a18092a8d5836779673d17cb">getConfigFilePathFromSHM</a> (char *path, int size)</td></tr>
+<tr class="memdesc:a71e47746a18092a8d5836779673d17cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get opensca.conf path.  <a href="#a71e47746a18092a8d5836779673d17cb">More...</a><br /></td></tr>
+<tr class="separator:a71e47746a18092a8d5836779673d17cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -385,7 +353,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00081">81</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00082">82</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -403,7 +371,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00062">62</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00063">63</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -421,7 +389,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00063">63</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00064">64</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +403,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00082">82</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00083">83</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -449,7 +417,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00070">70</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00071">71</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -463,7 +431,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00086">86</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00087">87</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -477,7 +445,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00091">91</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00092">92</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -491,7 +459,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00078">78</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00079">79</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -505,7 +473,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00074">74</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00075">75</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -523,7 +491,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00067">67</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00068">68</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -541,7 +509,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00068">68</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00069">69</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -559,7 +527,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00060">60</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00061">61</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -577,7 +545,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00061">61</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00062">62</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -595,7 +563,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00065">65</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00066">66</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -613,7 +581,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00066">66</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00067">67</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -627,7 +595,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00085">85</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00086">86</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -641,7 +609,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00076">76</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00077">77</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -655,7 +623,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00092">92</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00093">93</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -669,7 +637,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00042">42</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00043">43</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -683,7 +651,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00041">41</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00042">42</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -697,7 +665,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00045">45</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00046">46</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -711,7 +679,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00044">44</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00045">45</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -727,7 +695,7 @@ Variables</h2></td></tr>
 
 <p>unsigned long of max size </p>
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00036">36</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00037">37</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -741,7 +709,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00083">83</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00084">84</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -755,7 +723,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00084">84</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00085">85</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -769,7 +737,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00072">72</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00073">73</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -783,7 +751,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00087">87</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00088">88</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -801,7 +769,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">((((s) &amp; 0x00ff) &lt;&lt; 8) | \</div><div class="line">                                                (((s) &amp; 0xff00) &gt;&gt; 8))</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00052">52</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00053">53</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -819,7 +787,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">((((s) &amp; 0x000000ff) &lt;&lt; 24) |  \</div><div class="line">                                                (((s) &amp; 0x0000ff00) &lt;&lt;  8) |   \</div><div class="line">                                                (((s) &amp; 0x00ff0000) &gt;&gt;  8) |   \</div><div class="line">                                                (((s) &amp; 0xff000000) &gt;&gt; 24))</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00055">55</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00056">56</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -833,7 +801,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00039">39</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00040">40</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -847,7 +815,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00038">38</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00039">39</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -862,7 +830,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utils_8h_source.html#l00089">89</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
+<p>Definition at line <a class="el" href="utils_8h_source.html#l00090">90</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
 </div>
 </div>
@@ -900,22 +868,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The operation check whether the input parameter is accord with the format of ip address. </p>
-
-</div>
-</div>
-<a class="anchor" id="a8fe8bd62937b21334bf54a947c33f11c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool closeProfileFile </td>
-          <td>(</td>
-          <td class="paramtype">CF::File_ptr&#160;</td>
-          <td class="paramname"><em>file</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1009,21 +961,21 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a088b612e22980f08ffac5d700f62101d"></a>
+<a class="anchor" id="a71e47746a18092a8d5836779673d17cb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char* get_exe_path </td>
+          <td class="memname">void getConfigFilePathFromSHM </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
+          <td class="paramname"><em>path</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1033,31 +985,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a17279927478b2686e245ab156da49bf3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char* getExectePath </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>get opensca.conf path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>storage path information </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>maximum path length </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1366,108 +1301,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a680533975968f65b1fc5c1092b528e1e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool openProfileFile </td>
-          <td>(</td>
-          <td class="paramtype">CF::FileSystem_ptr&#160;</td>
-          <td class="paramname"><em>fs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>profile</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">CF::File_var &amp;&#160;</td>
-          <td class="paramname"><em>file</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The operation shall open a file, and return the file object reference. </p>
-<dl class="section note"><dt>Note</dt><dd>shall close this CF::File object after use </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">fs</td><td>File system ojbect reference </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">profile</td><td>The file wait for opening </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>Reference of specialed file</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Result of opening the file. </dd></dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">true</td><td>Open successfully. </td></tr>
-    <tr><td class="paramname">false</td><td>Open failed. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a0c501111e1f62c583013739cfa521e55"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool openProfileFile </td>
-          <td>(</td>
-          <td class="paramtype">CF::FileManager_ptr&#160;</td>
-          <td class="paramname"><em>fm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>profile</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">CF::File_var &amp;&#160;</td>
-          <td class="paramname"><em>file</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The operation shall open a file, and return the file object reference. </p>
-<dl class="section note"><dt>Note</dt><dd>shall close this CF::File object after use </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">fm</td><td>File Manager ojbect reference </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">profile</td><td>The file wait for opening </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>Reference of specialed file</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Result of opening the file. </dd></dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">true</td><td>Open successfully. </td></tr>
-    <tr><td class="paramname">false</td><td>Open failed. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a class="anchor" id="a0a9f47dc8c5e4dd35d67b78da7aee223"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1491,6 +1324,24 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adfd91ed7f342b3be4ba2104bd371c3f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setConfigFilePathToSHM </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>configure opensca.conf path. </p>
 
 </div>
 </div>
@@ -1529,7 +1380,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_f225e4d86008d3e73336a06c8611e2b4.html">runtime_env</a></li><li class="navelem"><a class="el" href="dir_8f9a475dbd6b925c5ec1184392d41305.html">rte_utils</a></li><li class="navelem"><a class="el" href="dir_8a3d4f0e83014ff517f4732af5005de4.html">include</a></li><li class="navelem"><a class="el" href="utils_8h.html">utils.h</a></li>
-    <li class="footer">Generated on Wed May 8 2019 11:27:44 for
+    <li class="footer">Generated on Thu Jul 11 2019 09:43:53 for
     <a href="http://www.onetek.net">
     <img class="footer" src="openscaLogo.png" height="31" alt="openSCA"/></a>
     </li>

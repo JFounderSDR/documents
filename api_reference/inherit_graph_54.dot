@@ -1,0 +1,14 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="FileManager",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FileManager_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_manager__impl.html",tooltip="Multiple, distributed file systems may be accessed through a file manager. "];
+  Node3 [label="FileSystem",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FileSystem_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_system__impl.html",tooltip="The FileSystem interface defines CORBA operations that enable remote access to a physical file system..."];
+}

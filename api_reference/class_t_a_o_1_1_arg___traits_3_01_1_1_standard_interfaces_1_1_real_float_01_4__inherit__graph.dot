@@ -1,0 +1,10 @@
+digraph "Arg_Traits&lt; ::StandardInterfaces::RealFloat &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Arg_Traits\< ::StandardInterfaces\l::RealFloat \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Object_Arg_Traits_T\l\< ::StandardInterfaces\l::RealFloat_ptr,::StandardInterfaces\l::RealFloat_var,::StandardInterfaces\l::RealFloat_out, TAO::Objref_Traits\l\< StandardInterfaces::RealFloat \>, TAO\l::Any_Insert_Policy_Stream \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

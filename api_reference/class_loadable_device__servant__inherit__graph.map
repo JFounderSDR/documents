@@ -1,9 +1,0 @@
-<map id="LoadableDevice_servant" name="LoadableDevice_servant">
-<area shape="rect" id="node15" href="$class_executable_device__servant.html" title="This interface extends the LoadableDevice interface by adding execute and terminate behavior to a dev..." alt="" coords="389,379,568,405"/>
-<area shape="rect" id="node2" href="$class_device__servant.html" title="A device is a type of resource and has all the requirements associated with the Resource interface..." alt="" coords="353,229,466,256"/>
-<area shape="rect" id="node3" href="$class_resource__impl.html" title="The Resource interface provides a common API for the control and configuration of a software componen..." alt="" coords="300,155,409,181"/>
-<area shape="rect" id="node4" href="$class_property_set__impl.html" title="The PropertySet class defines configure and query operations to access component properties/attribute..." alt="" coords="5,80,128,107"/>
-<area shape="rect" id="node6" href="$class_port_supplier__impl.html" title="This interface provides the getPort operation for those components that provide ports. " alt="" coords="153,80,277,107"/>
-<area shape="rect" id="node8" href="$class_life_cycle__impl.html" title="The LifeCycle interface defines the generic operations for initializing or releasing instantiated com..." alt="" coords="301,80,409,107"/>
-<area shape="rect" id="node10" href="$class_testable_object__impl.html" title="The testable object interface provides a means to perform stand alone testing of an SCA component..." alt="" coords="433,80,575,107"/>
-</map>

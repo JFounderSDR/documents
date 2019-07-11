@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_p_r_f_property.html" title="this class is base class of property. " alt="" coords="5,31,104,57"/>
-<area shape="rect" id="node2" href="$class_p_r_f_simple_property.html" title="this class is designed to parse &quot;simpleProperty&quot; element. " alt="" coords="181,5,319,32"/>
-<area shape="rect" id="node3" href="$class_p_r_f_simple_sequence_property.html" title="this class is designed to parse &quot;simpleSequenceProperty&quot; element. " alt="" coords="152,56,348,83"/>
-</map>

@@ -1,0 +1,11 @@
+digraph "frameworks/FileManager/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a92f637608b09557df2e8981ffcc95de {
+    graph [ bgcolor="#ddddee", pencolor="black", label="FileManager" fontname="Helvetica", fontsize="10", URL="dir_a92f637608b09557df2e8981ffcc95de.html"]
+  dir_87a3c5cad2ab63333bfd27a76390de41 [shape=box, label="include", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_87a3c5cad2ab63333bfd27a76390de41.html"];
+  }
+  dir_40a97078142f0fc7074e01eb79f0bef3 [shape=box label="FileSystem" fillcolor="white" style="filled" color="red" URL="dir_40a97078142f0fc7074e01eb79f0bef3.html"];
+  dir_87a3c5cad2ab63333bfd27a76390de41->dir_40a97078142f0fc7074e01eb79f0bef3 [headlabel="1", labeldistance=1.5 headhref="dir_000020_000022.html"];
+}

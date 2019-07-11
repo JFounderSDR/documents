@@ -172,8 +172,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ae9bb2b09b6f0afefe46747ac1eb72f8e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopensca_support.html#ae9bb2b09b6f0afefe46747ac1eb72f8e">isValidFileName</a> (const char *fileName)</td></tr>
 <tr class="memdesc:ae9bb2b09b6f0afefe46747ac1eb72f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if filename is valid,Valid individual filenames and directory names shall be 40 characters or less.  <a href="#ae9bb2b09b6f0afefe46747ac1eb72f8e">More...</a><br /></td></tr>
 <tr class="separator:ae9bb2b09b6f0afefe46747ac1eb72f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff491f410402a8efb3ecf02ed1636149"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopensca_support.html#aff491f410402a8efb3ecf02ed1636149">sendObjAdded_event</a> (const char *producerId, const char *sourceId, const char *sourceName, CORBA::Object_ptr sourceIOR, StandardEvent::SourceCategoryType sourceCategory)</td></tr>
-<tr class="separator:aff491f410402a8efb3ecf02ed1636149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af71e085316c6b103507b7638558c32a1"><td class="memItemLeft" align="right" valign="top">PortableServer::POA_ptr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceopensca_support.html#af71e085316c6b103507b7638558c32a1">createPersistentPOA</a> (PortableServer::POA_ptr root_poa, const char *poa_name)</td></tr>
 <tr class="memdesc:af71e085316c6b103507b7638558c32a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">this routine create a persistent POA as the child of ROOT POA, ROOT POA and child POA is in control of ROOT Manager.  <a href="#af71e085316c6b103507b7638558c32a1">More...</a><br /></td></tr>
 <tr class="separator:af71e085316c6b103507b7638558c32a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,50 +228,6 @@ Functions</h2></td></tr>
 
 <p>check if filename is valid,Valid individual filenames and directory names shall be 40 characters or less. </p>
 <p>Valid characters for a filename or directory name are the 62 alphanumeric characters (Upper, and lowercase letters and the numbers 0 to 9) in addition to the '.' (period), '_'(underscore) and '-'(hyphen) characters. The filenames '.'("dot") and '..' ("dot-dot") are invalid in the context of a file system. Valid pathnames are structured according to the POSIX specification whose valid characters include the '/'(forward slash) character in addition to the valid filename characters. A valid pathname may consist of a single filename. A valid pathname shall not exceed 1024 characters. </p>
-
-</div>
-</div>
-<a class="anchor" id="aff491f410402a8efb3ecf02ed1636149"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void openscaSupport::sendObjAdded_event </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>producerId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>sourceId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>sourceName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">CORBA::Object_ptr&#160;</td>
-          <td class="paramname"><em>sourceIOR</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">StandardEvent::SourceCategoryType&#160;</td>
-          <td class="paramname"><em>sourceCategory</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -673,7 +627,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceopensca_support.html">openscaSupport</a></li>
-    <li class="footer">Generated on Wed May 8 2019 11:27:44 for
+    <li class="footer">Generated on Thu Jul 11 2019 09:43:53 for
     <a href="http://www.onetek.net">
     <img class="footer" src="openscaLogo.png" height="31" alt="openSCA"/></a>
     </li>

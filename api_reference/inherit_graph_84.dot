@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ORB_Wrap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classopensca_support_1_1_o_r_b___wrap.html",tooltip="The ORB class wrap basic option for orb such as orb_init/get_POA/get_NamingContext/bind/unbind and so..."];
+}

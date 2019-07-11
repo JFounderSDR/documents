@@ -125,36 +125,20 @@ $(document).ready(function(){initNavTree('_bootloader_8cpp.html','');});
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;istream&gt;</code><br />
 <code>#include &quot;<a class="el" href="_launch_node_8h_source.html">../include/LaunchNode.h</a>&quot;</code><br />
+<code>#include &quot;../include/debug.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cf__utils_8h_source.html">cf_utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_s_p_d_parser_8h_source.html">SPDParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_d_c_d_parser_8h_source.html">DCDParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_file_system__impl_8h_source.html">FileSystem_impl.h</a>&quot;</code><br />
 <code>#include &quot;CFS.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="_config_parser_8h_source.html">ConfigParser.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="debug_8h_source.html">debug.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_boost__utils_8h_source.html">Boost_utils.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Bootloader.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="_bootloader_8cpp__incl.png" border="0" usemap="#frameworks_2_boot_loader_2src_2_bootloader_8cpp" alt=""/></div>
 <map name="frameworks_2_boot_loader_2src_2_bootloader_8cpp" id="frameworks_2_boot_loader_2src_2_bootloader_8cpp">
-<area shape="rect" id="node8" href="_launch_node_8h.html" title=": &#160;" alt="" coords="1828,95,1990,121"/>
-<area shape="rect" id="node11" href="debug_8h.html" title=": &#160;" alt="" coords="2328,415,2396,442"/>
-<area shape="rect" id="node15" href="_d_c_d_parser_8h.html" title=": &#160;" alt="" coords="925,244,1026,271"/>
-<area shape="rect" id="node24" href="_s_p_d_parser_8h.html" title=": &#160;" alt="" coords="1741,169,1840,196"/>
-<area shape="rect" id="node27" href="_file_system__impl_8h.html" title=": &#160;" alt="" coords="2016,169,2146,196"/>
-<area shape="rect" id="node31" href="_config_parser_8h.html" title=": &#160;" alt="" coords="829,326,938,353"/>
-<area shape="rect" id="node33" href="_boost__utils_8h.html" title=": &#160;" alt="" coords="3073,326,3172,353"/>
-<area shape="rect" id="node43" href="utils_8h.html" title=": &#160;" alt="" coords="483,244,540,271"/>
-<area shape="rect" id="node23" href="_d_m_d_parser_8h.html" title=": &#160;" alt="" coords="1643,326,1746,353"/>
-<area shape="rect" id="node17" href="parser__helpers_8h.html" title=": &#160;" alt="" coords="1166,326,1284,353"/>
-<area shape="rect" id="node22" href="port__helpers_8h.html" title=": &#160;" alt="" coords="1164,415,1268,442"/>
-<area shape="rect" id="node25" href="_p_r_f_parser_8h.html" title=": &#160;" alt="" coords="1549,244,1648,271"/>
-<area shape="rect" id="node26" href="prop__helpers_8h.html" title=": &#160;" alt="" coords="1309,326,1416,353"/>
-<area shape="rect" id="node28" href="opensca_support_8h.html" title=": &#160;" alt="" coords="2227,244,2354,271"/>
-<area shape="rect" id="node42" href="_file__impl_8h.html" title=": &#160;" alt="" coords="2016,244,2101,271"/>
-<area shape="rect" id="node46" href="macros_8h.html" title=": &#160;" alt="" coords="526,326,602,353"/>
-<area shape="rect" id="node47" href="_time_delay_8h.html" title=": &#160;" alt="" coords="186,326,282,353"/>
 </map>
 </div>
 </div>
@@ -169,10 +153,18 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0d344616498528eb705f38c226f81ae4"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a> (<a class="el" href="class_config_parser.html">ConfigParser</a> *<a class="el" href="_domain_manager__server_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, const char *item)</td></tr>
+<tr class="memitem:a0d344616498528eb705f38c226f81ae4"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a> (<a class="el" href="class_config_parser.html">ConfigParser</a> *<a class="el" href="_domain_manager__server_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, const char *item)</td></tr>
 <tr class="separator:a0d344616498528eb705f38c226f81ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a978e05bd634c3886e655fa26faf54378"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a978e05bd634c3886e655fa26faf54378">splitString</a> (const std::string &amp;context, std::vector&lt; std::string &gt; &amp;subStrs, const std::string &amp;splitStr)</td></tr>
 <tr class="separator:a978e05bd634c3886e655fa26faf54378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e73ace6cc8b7aa356a660ceef1a6d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#ab9e73ace6cc8b7aa356a660ceef1a6d5">set_debug_level</a> (0)</td></tr>
+<tr class="separator:ab9e73ace6cc8b7aa356a660ceef1a6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56d56b935dde4c2b2567940702746f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#ae56d56b935dde4c2b2567940702746f1">set_rte_debug_level</a> (0)</td></tr>
+<tr class="separator:ae56d56b935dde4c2b2567940702746f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f87fe15fa416e71f4e79fa1d4d21052"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a5f87fe15fa416e71f4e79fa1d4d21052">setConfigFilePathToSHM</a> (exePath.c_str())</td></tr>
+<tr class="separator:a5f87fe15fa416e71f4e79fa1d4d21052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc12349b3b14d2cf4d87803dd9f362bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#acc12349b3b14d2cf4d87803dd9f362bf">getConfigFilePathFromSHM</a> (<a class="el" href="_device_manager__server_8cpp.html#a520ae4f8693a7d6529c67272b80da0c4">openScaPath</a>, sizeof(<a class="el" href="_device_manager__server_8cpp.html#a520ae4f8693a7d6529c67272b80da0c4">openScaPath</a>))</td></tr>
+<tr class="separator:acc12349b3b14d2cf4d87803dd9f362bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c51bd97da3d6eda1ea52fc5b37c3c46"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a1c51bd97da3d6eda1ea52fc5b37c3c46">if</a> (&quot;&quot;==<a class="el" href="_domain_manager__server_8cpp.html#a49943bdb8560720d07c87de869066484">fsRoot</a>)</td></tr>
 <tr class="separator:a1c51bd97da3d6eda1ea52fc5b37c3c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5caaaafbae92f1d768a989baad1263e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_bootloader_8cpp.html#aee50a60c7f95283f680fc0b039ab85c5">launchNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a5caaaafbae92f1d768a989baad1263e7">executeNamingService</a> (<a class="el" href="_bootloader_8cpp.html#ae42506712df0f78aa771fa93745956ab">fileSystemImpl</a>, <a class="el" href="_bootloader_8cpp.html#a6215e1bc302754a940cc9ee8f0fe294d">namingServiceSPDPath</a>)</td></tr>
@@ -186,27 +178,35 @@ Functions</h2></td></tr>
 <tr class="memitem:a856517e4a581f331c0802c3dd35264c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a856517e4a581f331c0802c3dd35264c5">wait</a> (NULL)</td></tr>
 <tr class="memdesc:a856517e4a581f331c0802c3dd35264c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy sca_shm shared memory.  <a href="#a856517e4a581f331c0802c3dd35264c5">More...</a><br /></td></tr>
 <tr class="separator:a856517e4a581f331c0802c3dd35264c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28bbb752b8d40b48fe9c12741346cf12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a28bbb752b8d40b48fe9c12741346cf12">removeSharedMemory</a> (<a class="el" href="_boost__utils_8h.html#a20b39e37e6bab08c0b2b8b74d494ab99">SCA_SHM</a>)</td></tr>
+<tr class="memitem:a28bbb752b8d40b48fe9c12741346cf12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a28bbb752b8d40b48fe9c12741346cf12">removeSharedMemory</a> (<a class="el" href="rte__debug_8h.html#a20b39e37e6bab08c0b2b8b74d494ab99">SCA_SHM</a>)</td></tr>
 <tr class="separator:a28bbb752b8d40b48fe9c12741346cf12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a226f67047ac02e9a7ad17a521a7b1a84"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a226f67047ac02e9a7ad17a521a7b1a84">exePath</a> = <a class="el" href="utils_8h.html#a088b612e22980f08ffac5d700f62101d">get_exe_path</a>(<a class="el" href="_device_manager__server_8cpp.html#a6f50c85874ef8f3405625e5a26febbcb">path</a>, 1024)</td></tr>
+<tr class="memitem:a226f67047ac02e9a7ad17a521a7b1a84"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a226f67047ac02e9a7ad17a521a7b1a84">exePath</a> = <a class="el" href="cf__utils_8cpp.html#a86c53e7468d704b3bb8800be38492846">getConfigFilePathByExecutablePath</a>()</td></tr>
 <tr class="separator:a226f67047ac02e9a7ad17a521a7b1a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952588d89c523262e31f80825858a050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_config_parser.html">ConfigParser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a> (<a class="el" href="_domain_manager__server_8cpp.html#a226f67047ac02e9a7ad17a521a7b1a84">exePath</a>)</td></tr>
-<tr class="separator:a952588d89c523262e31f80825858a050"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49943bdb8560720d07c87de869066484"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a49943bdb8560720d07c87de869066484">fsRoot</a> = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#a3239fb87215ad73d0f60b81c62f03da2">CONSTANT::FSROOT</a>)</td></tr>
+<tr class="memitem:a520ae4f8693a7d6529c67272b80da0c4"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a520ae4f8693a7d6529c67272b80da0c4">openScaPath</a> [64]</td></tr>
+<tr class="separator:a520ae4f8693a7d6529c67272b80da0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4edd73f527ab08df5052a34ec4324e40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_config_parser.html">ConfigParser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a> (<a class="el" href="_device_manager__server_8cpp.html#a520ae4f8693a7d6529c67272b80da0c4">openScaPath</a>)</td></tr>
+<tr class="separator:a4edd73f527ab08df5052a34ec4324e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49943bdb8560720d07c87de869066484"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a49943bdb8560720d07c87de869066484">fsRoot</a> = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#a3239fb87215ad73d0f60b81c62f03da2">CONSTANT::FSROOT</a>)</td></tr>
 <tr class="separator:a49943bdb8560720d07c87de869066484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb91446413d17e8e077d6c01f86230a7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#afb91446413d17e8e077d6c01f86230a7">sdrRoot</a> = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#a817837bca0c63cbd569427dd33f78fdc">CONSTANT::SDRROOT</a>)</td></tr>
+<tr class="memitem:afb91446413d17e8e077d6c01f86230a7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#afb91446413d17e8e077d6c01f86230a7">sdrRoot</a> = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#a817837bca0c63cbd569427dd33f78fdc">CONSTANT::SDRROOT</a>)</td></tr>
 <tr class="separator:afb91446413d17e8e077d6c01f86230a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55e91ae86ee85226784e3ab904dca3e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#ae55e91ae86ee85226784e3ab904dca3e">snFile</a> = const_cast&lt;char*&gt;(<a class="el" href="namespace_c_o_n_s_t_a_n_t.html#acdd6824fd344b79eea01ca9ab4f2d10d">CONSTANT::SNFILE</a>)</td></tr>
+<tr class="separator:ae55e91ae86ee85226784e3ab904dca3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42506712df0f78aa771fa93745956ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_file_system__impl.html">FileSystem_impl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#ae42506712df0f78aa771fa93745956ab">fileSystemImpl</a> = new <a class="el" href="class_file_system__impl.html">FileSystem_impl</a>(fsRoot.c_str())</td></tr>
+<tr class="separator:ae42506712df0f78aa771fa93745956ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5cc934dffab3041f956438698e1ee95"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#ac5cc934dffab3041f956438698e1ee95">snPath</a> = &quot;/&quot; + <a class="el" href="_domain_manager__server_8cpp.html#afb91446413d17e8e077d6c01f86230a7">sdrRoot</a> + &quot;/&quot; + <a class="el" href="_bootloader_8cpp.html#ae55e91ae86ee85226784e3ab904dca3e">snFile</a></td></tr>
+<tr class="separator:ac5cc934dffab3041f956438698e1ee95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd5dd978a073beb464edd9919589fdb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a6bd5dd978a073beb464edd9919589fdb">snFilePath</a> = <a class="el" href="_domain_manager__server_8cpp.html#a49943bdb8560720d07c87de869066484">fsRoot</a> + <a class="el" href="_bootloader_8cpp.html#ac5cc934dffab3041f956438698e1ee95">snPath</a></td></tr>
+<tr class="separator:a6bd5dd978a073beb464edd9919589fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6215e1bc302754a940cc9ee8f0fe294d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a6215e1bc302754a940cc9ee8f0fe294d">namingServiceSPDPath</a></td></tr>
 <tr class="separator:a6215e1bc302754a940cc9ee8f0fe294d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3087f4e6fc3b2938c39bf4b8b17df258"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a3087f4e6fc3b2938c39bf4b8b17df258">mainDCDPath</a></td></tr>
 <tr class="separator:a3087f4e6fc3b2938c39bf4b8b17df258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81cfcdbb8cb012e47909477dba12c704"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a81cfcdbb8cb012e47909477dba12c704">DMDPath</a> = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#ad7847c211da5f866989c9a050634fbf4">CONSTANT::DMDPATH</a>)</td></tr>
+<tr class="memitem:a81cfcdbb8cb012e47909477dba12c704"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a81cfcdbb8cb012e47909477dba12c704">DMDPath</a> = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#ad7847c211da5f866989c9a050634fbf4">CONSTANT::DMDPATH</a>)</td></tr>
 <tr class="separator:a81cfcdbb8cb012e47909477dba12c704"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae42506712df0f78aa771fa93745956ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_file_system__impl.html">FileSystem_impl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#ae42506712df0f78aa771fa93745956ab">fileSystemImpl</a> = new <a class="el" href="class_file_system__impl.html">FileSystem_impl</a>(fsRoot.c_str())</td></tr>
-<tr class="separator:ae42506712df0f78aa771fa93745956ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee50a60c7f95283f680fc0b039ab85c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_launch_node.html">LaunchNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#aee50a60c7f95283f680fc0b039ab85c5">launchNode</a> = new <a class="el" href="class_launch_node.html">LaunchNode</a>(<a class="el" href="_domain_manager__server_8cpp.html#a49943bdb8560720d07c87de869066484">fsRoot</a>, <a class="el" href="_domain_manager__server_8cpp.html#afb91446413d17e8e077d6c01f86230a7">sdrRoot</a>)</td></tr>
 <tr class="separator:aee50a60c7f95283f680fc0b039ab85c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9717e7bbecb906637e86cef6da3d83c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_bootloader_8cpp.html#a9717e7bbecb906637e86cef6da3d83c2">return</a></td></tr>
@@ -238,7 +238,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00045">45</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00046">46</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -252,7 +252,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00044">44</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00045">45</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -281,7 +281,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00149">149</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00155">155</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -367,6 +367,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="acc12349b3b14d2cf4d87803dd9f362bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">getConfigFilePathFromSHM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_device_manager__server_8cpp.html#a520ae4f8693a7d6529c67272b80da0c4">openScaPath</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sizeof(<a class="el" href="_device_manager__server_8cpp.html#a520ae4f8693a7d6529c67272b80da0c4">openScaPath</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a1c51bd97da3d6eda1ea52fc5b37c3c46"></a>
 <div class="memitem">
 <div class="memproto">
@@ -381,7 +407,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00071">71</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00077">77</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -392,8 +418,56 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">removeSharedMemory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_boost__utils_8h.html#a20b39e37e6bab08c0b2b8b74d494ab99">SCA_SHM</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="rte__debug_8h.html#a20b39e37e6bab08c0b2b8b74d494ab99">SCA_SHM</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab9e73ace6cc8b7aa356a660ceef1a6d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_debug_level </td>
+          <td>(</td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae56d56b935dde4c2b2567940702746f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_rte_debug_level </td>
+          <td>(</td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f87fe15fa416e71f4e79fa1d4d21052"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">setConfigFilePathToSHM </td>
+          <td>(</td>
+          <td class="paramtype">exePath.&#160;</td>
+          <td class="paramname"><em>c_str</em>()</td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -431,7 +505,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00161">161</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00167">167</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -454,12 +528,12 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a952588d89c523262e31f80825858a050"></a>
+<a class="anchor" id="a4edd73f527ab08df5052a34ec4324e40"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_config_parser.html">ConfigParser</a> configParser(<a class="el" href="_domain_manager__server_8cpp.html#a226f67047ac02e9a7ad17a521a7b1a84">exePath</a>)</td>
+          <td class="memname"><a class="el" href="class_config_parser.html">ConfigParser</a> configParser(<a class="el" href="_device_manager__server_8cpp.html#a520ae4f8693a7d6529c67272b80da0c4">openScaPath</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -471,12 +545,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string DMDPath = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#ad7847c211da5f866989c9a050634fbf4">CONSTANT::DMDPATH</a>)</td>
+          <td class="memname">std::string DMDPath = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#ad7847c211da5f866989c9a050634fbf4">CONSTANT::DMDPATH</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00108">108</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00116">116</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -485,12 +559,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string exePath = <a class="el" href="utils_8h.html#a088b612e22980f08ffac5d700f62101d">get_exe_path</a>(<a class="el" href="_device_manager__server_8cpp.html#a6f50c85874ef8f3405625e5a26febbcb">path</a>, 1024)</td>
+          <td class="memname">std::string exePath = <a class="el" href="cf__utils_8cpp.html#a86c53e7468d704b3bb8800be38492846">getConfigFilePathByExecutablePath</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00067">67</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00070">70</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -504,7 +578,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00113">113</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00093">93</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -513,12 +587,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string fsRoot = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#a3239fb87215ad73d0f60b81c62f03da2">CONSTANT::FSROOT</a>)</td>
+          <td class="memname">std::string fsRoot = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#a3239fb87215ad73d0f60b81c62f03da2">CONSTANT::FSROOT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00070">70</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00076">76</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -532,7 +606,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00115">115</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00121">121</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -545,11 +619,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(</div><div class="line">                                                                &amp;<a class="code" href="_bootloader_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, <a class="code" href="namespace_c_o_n_s_t_a_n_t.html#a2bb6cfcc7b30bb6b049887056e7c039f">CONSTANT::MAINDCDPATH</a>)</div><div class="ttc" id="_bootloader_8cpp_html_a0d344616498528eb705f38c226f81ae4"><div class="ttname"><a href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a></div><div class="ttdeci">const std::string checkConfigInfo(ConfigParser *configParser, const char *item)</div><div class="ttdef"><b>Definition:</b> <a href="_bootloader_8cpp_source.html#l00149">Bootloader.cpp:149</a></div></div>
-<div class="ttc" id="_bootloader_8cpp_html_a952588d89c523262e31f80825858a050"><div class="ttname"><a href="_bootloader_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a></div><div class="ttdeci">ConfigParser configParser(exePath)</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(</div><div class="line">                                                                &amp;<a class="code" href="_bootloader_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, <a class="code" href="namespace_c_o_n_s_t_a_n_t.html#a2bb6cfcc7b30bb6b049887056e7c039f">CONSTANT::MAINDCDPATH</a>)</div><div class="ttc" id="_bootloader_8cpp_html_a0d344616498528eb705f38c226f81ae4"><div class="ttname"><a href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a></div><div class="ttdeci">const std::string checkConfigInfo(ConfigParser *configParser, const char *item)</div><div class="ttdef"><b>Definition:</b> <a href="_bootloader_8cpp_source.html#l00155">Bootloader.cpp:155</a></div></div>
+<div class="ttc" id="_bootloader_8cpp_html_a4edd73f527ab08df5052a34ec4324e40"><div class="ttname"><a href="_bootloader_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a></div><div class="ttdeci">ConfigParser configParser(openScaPath)</div></div>
 <div class="ttc" id="namespace_c_o_n_s_t_a_n_t_html_a2bb6cfcc7b30bb6b049887056e7c039f"><div class="ttname"><a href="namespace_c_o_n_s_t_a_n_t.html#a2bb6cfcc7b30bb6b049887056e7c039f">CONSTANT::MAINDCDPATH</a></div><div class="ttdeci">const char * MAINDCDPATH</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00102">102</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00109">109</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -562,11 +636,25 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">            <a class="code" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="code" href="_bootloader_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, <a class="code" href="namespace_c_o_n_s_t_a_n_t.html#abe62d58a59ab887bf0c437bcb1b27118">CONSTANT::NAMING_SERVICE_SPDPATH</a>)</div><div class="ttc" id="_bootloader_8cpp_html_a0d344616498528eb705f38c226f81ae4"><div class="ttname"><a href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a></div><div class="ttdeci">const std::string checkConfigInfo(ConfigParser *configParser, const char *item)</div><div class="ttdef"><b>Definition:</b> <a href="_bootloader_8cpp_source.html#l00149">Bootloader.cpp:149</a></div></div>
-<div class="ttc" id="_bootloader_8cpp_html_a952588d89c523262e31f80825858a050"><div class="ttname"><a href="_bootloader_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a></div><div class="ttdeci">ConfigParser configParser(exePath)</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">            <a class="code" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="code" href="_bootloader_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, <a class="code" href="namespace_c_o_n_s_t_a_n_t.html#abe62d58a59ab887bf0c437bcb1b27118">CONSTANT::NAMING_SERVICE_SPDPATH</a>)</div><div class="ttc" id="_bootloader_8cpp_html_a0d344616498528eb705f38c226f81ae4"><div class="ttname"><a href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a></div><div class="ttdeci">const std::string checkConfigInfo(ConfigParser *configParser, const char *item)</div><div class="ttdef"><b>Definition:</b> <a href="_bootloader_8cpp_source.html#l00155">Bootloader.cpp:155</a></div></div>
+<div class="ttc" id="_bootloader_8cpp_html_a4edd73f527ab08df5052a34ec4324e40"><div class="ttname"><a href="_bootloader_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a></div><div class="ttdeci">ConfigParser configParser(openScaPath)</div></div>
 <div class="ttc" id="namespace_c_o_n_s_t_a_n_t_html_abe62d58a59ab887bf0c437bcb1b27118"><div class="ttname"><a href="namespace_c_o_n_s_t_a_n_t.html#abe62d58a59ab887bf0c437bcb1b27118">CONSTANT::NAMING_SERVICE_SPDPATH</a></div><div class="ttdeci">const char * NAMING_SERVICE_SPDPATH</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00096">96</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00103">103</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a520ae4f8693a7d6529c67272b80da0c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char openScaPath[64]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00072">72</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -580,7 +668,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00145">145</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00151">151</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -589,12 +677,54 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string sdrRoot = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a952588d89c523262e31f80825858a050">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#a817837bca0c63cbd569427dd33f78fdc">CONSTANT::SDRROOT</a>)</td>
+          <td class="memname">std::string sdrRoot = <a class="el" href="_bootloader_8cpp.html#a0d344616498528eb705f38c226f81ae4">checkConfigInfo</a>(&amp;<a class="el" href="_domain_manager__server_8cpp.html#a4edd73f527ab08df5052a34ec4324e40">configParser</a>, <a class="el" href="namespace_c_o_n_s_t_a_n_t.html#a817837bca0c63cbd569427dd33f78fdc">CONSTANT::SDRROOT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00078">78</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00084">84</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae55e91ae86ee85226784e3ab904dca3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string snFile = const_cast&lt;char*&gt;(<a class="el" href="namespace_c_o_n_s_t_a_n_t.html#acdd6824fd344b79eea01ca9ab4f2d10d">CONSTANT::SNFILE</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00092">92</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6bd5dd978a073beb464edd9919589fdb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string snFilePath = <a class="el" href="_domain_manager__server_8cpp.html#a49943bdb8560720d07c87de869066484">fsRoot</a> + <a class="el" href="_bootloader_8cpp.html#ac5cc934dffab3041f956438698e1ee95">snPath</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00095">95</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5cc934dffab3041f956438698e1ee95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string snPath = &quot;/&quot; + <a class="el" href="_domain_manager__server_8cpp.html#afb91446413d17e8e077d6c01f86230a7">sdrRoot</a> + &quot;/&quot; + <a class="el" href="_bootloader_8cpp.html#ae55e91ae86ee85226784e3ab904dca3e">snFile</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_bootloader_8cpp_source.html#l00094">94</a> of file <a class="el" href="_bootloader_8cpp_source.html">Bootloader.cpp</a>.</p>
 
 </div>
 </div>
@@ -605,7 +735,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_27e7b6da28153e106312658788f622d3.html">frameworks</a></li><li class="navelem"><a class="el" href="dir_cb9a28d4d72c7d76ae63ce0c0211878b.html">BootLoader</a></li><li class="navelem"><a class="el" href="dir_3323507dbdf4a86c791f48e1bf390fe0.html">src</a></li><li class="navelem"><a class="el" href="_bootloader_8cpp.html">Bootloader.cpp</a></li>
-    <li class="footer">Generated on Wed May 8 2019 11:27:43 for
+    <li class="footer">Generated on Thu Jul 11 2019 09:43:52 for
     <a href="http://www.onetek.net">
     <img class="footer" src="openscaLogo.png" height="31" alt="openSCA"/></a>
     </li>

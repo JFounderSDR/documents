@@ -1,0 +1,17 @@
+digraph "DeviceManager_impl"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="DeviceManager_impl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PropertySet_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_property_set__impl.html",tooltip="The PropertySet class defines configure and query operations to access component properties/attribute..."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PropertySet",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PortSupplier_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_port_supplier__impl.html",tooltip="This interface provides the getPort operation for those components that provide ports. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PortSupplier",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="DeviceManager",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

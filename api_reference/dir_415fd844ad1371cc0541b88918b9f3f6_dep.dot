@@ -1,0 +1,17 @@
+digraph "frameworks/libCF_StdPorts" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_27e7b6da28153e106312658788f622d3 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="frameworks" fontname="Helvetica", fontsize="10", URL="dir_27e7b6da28153e106312658788f622d3.html"]
+  subgraph clusterdir_415fd844ad1371cc0541b88918b9f3f6 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_415fd844ad1371cc0541b88918b9f3f6.html"];
+    dir_415fd844ad1371cc0541b88918b9f3f6 [shape=plaintext label="libCF_StdPorts"];
+    dir_1930bbf1458d085ae133456611e5443a [shape=box label="include" color="black" fillcolor="white" style="filled" URL="dir_1930bbf1458d085ae133456611e5443a.html"];
+    dir_d2fc98ce36498895d2f435dea38315b0 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_d2fc98ce36498895d2f435dea38315b0.html"];
+  }
+  }
+  dir_f225e4d86008d3e73336a06c8611e2b4 [shape=box label="runtime_env" fillcolor="white" style="filled" color="red" URL="dir_f225e4d86008d3e73336a06c8611e2b4.html"];
+  dir_d2fc98ce36498895d2f435dea38315b0->dir_1930bbf1458d085ae133456611e5443a [headlabel="83", labeldistance=1.5 headhref="dir_000027_000026.html"];
+  dir_1930bbf1458d085ae133456611e5443a->dir_f225e4d86008d3e73336a06c8611e2b4 [headlabel="29", labeldistance=1.5 headhref="dir_000026_000034.html"];
+}

@@ -1,7 +1,0 @@
-<map id="PayloadStatus" name="PayloadStatus">
-<area shape="rect" id="node3" href="$class_m_h_a_l_1_1_m_h_a_l_packet_consumer.html" title="MHALPacketConsumer" alt="" coords="123,155,283,181"/>
-<area shape="rect" id="node6" href="$class_packet_1_1_octet_stream.html" title="OctetStream" alt="" coords="307,155,403,181"/>
-<area shape="rect" id="node7" href="$class_packet_1_1_ushort_steam.html" title="UshortSteam" alt="" coords="427,155,525,181"/>
-<area shape="rect" id="node4" href="$class_m_h_a_l_1_1_p_f___m_h_a_l_packet_consumer.html" title="PF_MHALPacketConsumer" alt="" coords="5,229,189,256"/>
-<area shape="rect" id="node5" href="$class_m_h_a_l_1_1_w_f___m_h_a_l_packet_consumer.html" title="WF_MHALPacketConsumer" alt="" coords="214,229,402,256"/>
-</map>

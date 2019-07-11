@@ -1,0 +1,11 @@
+digraph "frameworks/libCF_StdPorts/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_415fd844ad1371cc0541b88918b9f3f6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libCF_StdPorts" fontname="Helvetica", fontsize="10", URL="dir_415fd844ad1371cc0541b88918b9f3f6.html"]
+  dir_d2fc98ce36498895d2f435dea38315b0 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d2fc98ce36498895d2f435dea38315b0.html"];
+  }
+  dir_1930bbf1458d085ae133456611e5443a [shape=box label="include" URL="dir_1930bbf1458d085ae133456611e5443a.html"];
+  dir_d2fc98ce36498895d2f435dea38315b0->dir_1930bbf1458d085ae133456611e5443a [headlabel="83", labeldistance=1.5 headhref="dir_000027_000026.html"];
+}

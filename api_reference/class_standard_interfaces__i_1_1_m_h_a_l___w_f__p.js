@@ -22,6 +22,7 @@ var class_standard_interfaces__i_1_1_m_h_a_l___w_f__p =
     [ "desirePayloadSize", "class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#af55f214223a42e70b5c84382195ecaba", null ],
     [ "logicalDest", "class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#a9e683ee16f370f1c3a8427cdf3370ec2", null ],
     [ "m_buffCtrl", "class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#adc280800f2094dbaedf3c5a3aa452945", null ],
+    [ "m_connection", "class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#ad599560c12cf14b07a8a9786ed2931fd", null ],
     [ "m_signal", "class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#a207584e3169628fce7c49b87548ed104", null ],
     [ "maxPayloadSize", "class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#a243948ef0412d0def13723a059a49099", null ],
     [ "minPayloadSize", "class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#ac4fbd4918f8f0efc51e002909e05de59", null ],

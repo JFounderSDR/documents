@@ -1,0 +1,33 @@
+digraph "Resource_impl"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Resource_impl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PropertySet_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_property_set__impl.html",tooltip="The PropertySet class defines configure and query operations to access component properties/attribute..."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PropertySet",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PortSupplier_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_port_supplier__impl.html",tooltip="This interface provides the getPort operation for those components that provide ports. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PortSupplier",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LifeCycle_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_life_cycle__impl.html",tooltip="The LifeCycle interface defines the generic operations for initializing or releasing instantiated com..."];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="LifeCycle",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="TestableObject_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_testable_object__impl.html",tooltip="The testable object interface provides a means to perform stand alone testing of an SCA component..."];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="TestableObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Resource",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Application_impl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_application__impl.html",tooltip="The Application class provides the interface for the control, configuration, and status of an instant..."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Device_servant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_device__servant.html",tooltip="A device is a type of resource and has all the requirements associated with the Resource interface..."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="LoadableDevice_servant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_loadable_device__servant.html",tooltip="This interface extends the Device interface by adding software loading and unloading behavior to a de..."];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="ExecutableDevice_servant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_executable_device__servant.html",tooltip="This interface extends the LoadableDevice interface by adding execute and terminate behavior to a dev..."];
+}

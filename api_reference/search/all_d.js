@@ -44,6 +44,7 @@ var searchData=
   ['m_5fcompositepartofdeviceid',['m_compositePartOfDeviceID',['../class_d_c_d_component_placement.html#a3781186d124321505bcbe7f470af88ba',1,'DCDComponentPlacement']]],
   ['m_5fconfigproperties',['m_configProperties',['../class_p_r_f_parser.html#a4f4dd6131ec64f641e3c6e38babc2dc2',1,'PRFParser']]],
   ['m_5fconfigureproperties',['m_configureProperties',['../classopensca_support_1_1_component_info.html#a88eec2326362cbe485614bed75720988',1,'openscaSupport::ComponentInfo']]],
+  ['m_5fconnection',['m_connection',['../class_standard_interfaces__i_1_1_m_h_a_l___p_f__p.html#ad599560c12cf14b07a8a9786ed2931fd',1,'StandardInterfaces_i::MHAL_PF_p::m_connection()'],['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#ad599560c12cf14b07a8a9786ed2931fd',1,'StandardInterfaces_i::MHAL_WF_p::m_connection()']]],
   ['m_5fconnectionid',['m_connectionId',['../class_connection.html#ad9e00166e9f5370638ab91f1b6a35fae',1,'Connection']]],
   ['m_5fconnectionsinfo',['m_connectionsInfo',['../class_application_factory__impl.html#a9aee869091207d04ac150eb4cf0d00a4',1,'ApplicationFactory_impl::m_connectionsInfo()'],['../class_device_manager__impl.html#a9aee869091207d04ac150eb4cf0d00a4',1,'DeviceManager_impl::m_connectionsInfo()']]],
   ['m_5fconnectsdata',['m_connectsData',['../class_application__impl.html#a9e67f99fc15bc78e7e44847499191bed',1,'Application_impl']]],
@@ -276,8 +277,8 @@ var searchData=
   ['mhal_5fwf_5fp',['MHAL_WF_p',['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html',1,'StandardInterfaces_i']]],
   ['mhal_5fwf_5fp_2ecpp',['MHAL_WF_p.cpp',['../_m_h_a_l___w_f__p_8cpp.html',1,'']]],
   ['mhal_5fwf_5fp_2eh',['MHAL_WF_p.h',['../_m_h_a_l___w_f__p_8h.html',1,'']]],
-  ['mhal_5fwf_5fu',['MHAL_WF_u',['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#a5a16fbc8ef06f008bf2f59837a7c4281',1,'StandardInterfaces_i::MHAL_WF_u::MHAL_WF_u(const char *portName)'],['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#ad38abaed22fa94397815971e355b36f9',1,'StandardInterfaces_i::MHAL_WF_u::MHAL_WF_u(const char *portName, const char *domainName)'],['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#ae5522f776fa9a56c973064fbd0e738f8',1,'StandardInterfaces_i::MHAL_WF_u::MHAL_WF_u()'],['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#ac08e46a6e51f6dab7ac494cb50e5f0c9',1,'StandardInterfaces_i::MHAL_WF_u::MHAL_WF_u(const MHAL_WF_u &amp;)']]],
   ['mhal_5fwf_5fu',['MHAL_WF_u',['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html',1,'StandardInterfaces_i']]],
+  ['mhal_5fwf_5fu',['MHAL_WF_u',['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#a5a16fbc8ef06f008bf2f59837a7c4281',1,'StandardInterfaces_i::MHAL_WF_u::MHAL_WF_u(const char *portName)'],['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#ad38abaed22fa94397815971e355b36f9',1,'StandardInterfaces_i::MHAL_WF_u::MHAL_WF_u(const char *portName, const char *domainName)'],['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#ae5522f776fa9a56c973064fbd0e738f8',1,'StandardInterfaces_i::MHAL_WF_u::MHAL_WF_u()'],['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#ac08e46a6e51f6dab7ac494cb50e5f0c9',1,'StandardInterfaces_i::MHAL_WF_u::MHAL_WF_u(const MHAL_WF_u &amp;)']]],
   ['mhal_5fwf_5fu_2ecpp',['MHAL_WF_u.cpp',['../_m_h_a_l___w_f__u_8cpp.html',1,'']]],
   ['mhal_5fwf_5fu_2eh',['MHAL_WF_u.h',['../_m_h_a_l___w_f__u_8h.html',1,'']]],
   ['mhalinterfacec_2ecpp',['MHALInterfaceC.cpp',['../_m_h_a_l_interface_c_8cpp.html',1,'']]],
@@ -304,8 +305,8 @@ var searchData=
   ['msgreceive',['msgReceive',['../utils_8h.html#a846317330d3fc0b53320ecdda3cc500e',1,'utils.h']]],
   ['msgsend',['msgSend',['../utils_8h.html#ab9b59a2593019c5817984f326bbe95d3',1,'utils.h']]],
   ['mutex_5fcnd',['MUTEX_CND',['../namespace_b_o_o_s_t___c_o_n_s_t_a_n_t.html#aca4736fa70eb519999f8c15a71d601a6',1,'BOOST_CONSTANT']]],
-  ['providesport',['providesPort',['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#abfa12d4ffd975e06797c560a1396361b',1,'StandardInterfaces_i::MHAL_WF_p']]],
   ['providesport',['providesPort',['../class_standard_interfaces__i_1_1_m_h_a_l___p_f__p.html#a8950adf4f237956d6c9106d9e529c2ca',1,'StandardInterfaces_i::MHAL_PF_p']]],
+  ['providesport',['providesPort',['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__p.html#abfa12d4ffd975e06797c560a1396361b',1,'StandardInterfaces_i::MHAL_WF_p']]],
   ['usesport',['UsesPort',['../class_standard_interfaces__i_1_1_m_h_a_l___w_f__u.html#a8c4fbd4f9a86d364550f31d35f4bc55a',1,'StandardInterfaces_i::MHAL_WF_u']]],
   ['usesport',['UsesPort',['../class_standard_interfaces__i_1_1_m_h_a_l___p_f__u.html#a267e417c559740c04210f1800214a2fc',1,'StandardInterfaces_i::MHAL_PF_u']]]
 ];

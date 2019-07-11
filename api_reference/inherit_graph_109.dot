@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ServiceNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_service_node.html",tooltip="The class used to describle a service, containing service&#39;s object reference, name and device manager..."];
+}
